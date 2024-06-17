@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    extend:{
+      colors:{
+        "roxinho": "#634AAC",
+        "clarinho": "#BFB2E5"
+      }
+    }
     
   },
   plugins: [],

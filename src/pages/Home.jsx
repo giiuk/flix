@@ -3,7 +3,8 @@ import data from '../../articles.json'
 function Home() {
     return ( 
 <>
-<input type="text" id="buscar" placeholder='Buscar uma notícia' />
+<input className=  "border-transparent m-5 p-1 bg-clarinho rounded-full border-3 placeholder-white" type="text" id="buscar" placeholder='Digite sua busca' />
+<hr className="h-px m-3 border-0 bg-roxinho p-0"></hr>
 <div className='grid grid-cols-3 gap-4'>
             {
                 data.map( (artigo, index) => (
