@@ -1,57 +1,48 @@
 [
     {
-    "image": "kindofkindness.png",
-    "title": "Kind of Kindness",
-    "data": "21/06/2024",
-    "text": [
-    "Três histórias antológicas que giram em torno de um homem que tenta assumir o controle de sua própria vida, um policial cuja esposa parece uma pessoa diferente e uma mulher que procura alguém com uma habilidade especial."
-    
+    "image": "chico.jpg",
+    "title": "Chico Bento: Isaac Amendoim aparece como o adorado personagem da Turma da Mônica em novo pôster de live-action",
+    "noticia": [
+    "Um dos personagens mais queridos da turma de Mauricio de Sousa está prestes a chegar aos cinemas, com data de estreia já definida."
     ]
 
     },
     {
-    "image": "estomago.png",
-    "title": "Estômago 2",
-    "data": "15/08/2024",
-    "text": [
-    "Um dos anti-heróis mais amados do cinema nacional, Raimundo Nonato (João Miguel) está de volta em Estômago 2: O Poderoso Chef, 16 anos após o lançamento do primeiro filme. Com um talento incrível para a culinária, Nonato conseguiu conquistar os criminosos na hierarquia da cadeia onde cumpre sua pena."
+    "image": "maxx.jpg",
+    "title": "MaXXXine: Filme de terror com Mia Goth é baseado em história real?",
+    "noticia": [
+    "Terceiro e último episódio da saga do diretor Ti West, MaXXXine dará uma volta na linha do tempo, ambientando a trama na Hollywood de 1985."
     ]
 
     },
     {
-        "image": "joker.png",
-        "title": "Joker- Folie à Deux",
-        "data": "03/10/2024",
-        "text": [
-        "A continuação se passa depois dos acontecimentos do filme de 2019, após ser iniciado um movimento popular contra a elite de Gotham City, revolução esta, que teve o Coringa como seu maior representante."
+        "image": "clint.webp",
+        "title": "Segundo Clint Eastwood, esse é o melhor faroeste da história do cinema: “Foi o primeiro filme de faroeste que me surpreendeu",
+        "noticia": [
+        "Eastwood é um titã do faroeste. Mas ele também adora o gênero como espectador. Um de seus filmes favoritos tem agora 81 anos e está quase esquecido."
         ]
 
         },
         {
-        "image": "deadpoolwol.png",
-        "title": "Deadpool e Wolverine",
-        "data": "26/07/2024",
-        "text": [
-        "Wolverine está se recuperando quando cruza seu caminho com Deadpool. Juntos, eles formam uma equipe e enfrentam um inimigo em comum."
+        "image": "residente.jpg",
+        "title": "Resident Evil é muito bem feito: James Cameron nos surpreende ao reivindicar a adaptação de videogame",
+        "noticia": [
+        "Diretor de Avatar revelou seu apreço pelo polêmico filme baseado na franquia da Capcom."
         ]
-
         },
         {
-            "image": "kraven.png", 
-            "title": "Kraven",
-            "data": "29/08/2024",
-            "text": [
-            "O imigrante russo Sergei Kravinoff tem a missão de provar que é o maior caçador do mundo."
+            "image": "diver.png", 
+            "title": "“Sua equipe não pode inventar uma cor?”: Diretor de Divertida Mente 2 revela processo divertido (e tortuoso!) para criar novas emoções.",
+            "noticia": [
+                "Kelsey Mann descreve, inclusive, a forma como decidiu que a Ansiedade combinava com o laranja."
             ]
 
             },
             {
-            "image": "cinderelac.png",
-            "title": "A Maldição de Cinderela",
-            "data": "20/06/2024",
-            "text": [
-            "A Maldição de Cinderela é um longa dirigido por Louisa Warren e a trama apresenta uma reviravolta sombria nessa história Baseado no mesmo conto popular que a Disney atualizou e popularizou para crianças na década de 1950. Depois de anos de abuso e humilhação, Cinderela (Kelly Rian Sanson) é empurrada para o seu limite."
-            ],
-            "tags": ["cinema", "discord"]
+            "image": "duble.webp",
+            "title": "20 minutos a mais que no cinema: Filme de ação de recorde mundial comemora estreia no streaming algumas semanas após seu lançamento",
+            "noticia": [
+            "    Embora provavelmente não seja mais um sucesso no cinema, o rumo agora está sendo traçado para uma transmissão de sucesso em streaming e em home cinema."
+            ]
             }
                             ]
