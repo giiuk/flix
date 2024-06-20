@@ -8,9 +8,6 @@ function Navbar() {
                 <li className="hover:underline"><Link to ="filmes"> Filmes</Link></li> 
                  <li className="hover:underline"><Link to ="contato">Contato</Link></li>
                 <li className="hover:underline"><Link to ="sobre">Sobre</Link></li>
-              
-                
-                <li className="hover:underline"><Link to ="favoritos">Favoritos</Link></li>
             </ul>
         </nav>
      );

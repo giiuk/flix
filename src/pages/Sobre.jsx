@@ -1,8 +1,6 @@
 function Sobre() {
     return ( 
         <>
-        <input className= "border-transparent m-6 p-2 bg-clarinho rounded-full border-3 placeholder-white" type="text" id="buscar" placeholder='Digite sua busca'/>
-        <hr className="h-px m-2 border-0 bg-roxinho p-0"></hr>
 
         <div className="ms-9 mr-9 p-10 mt-9 resize-none rounded-xl bg-clarinho border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
         <h5 className="mb-4 text-2xl mt-0 font-bold tracking-tight text-roxinho dark:text-white">Sobre Gioboxd</h5>

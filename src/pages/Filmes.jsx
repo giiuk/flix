@@ -24,26 +24,25 @@ function Filmes() {
 
 
     },[])
-
-    return ( 
+    
+    return (
         <>
-        <input className= "border-transparent m-6 p-2 bg-clarinho rounded-full border-3 placeholder-white" type="text" id="buscar" placeholder='Digite sua busca'/>
-        <hr className="h-px m-2 border-0 bg-roxinho p-0 mb-9 "></hr>
-        <div className="listaFilmes grid grid-cols-3 gap-4">
-            {
-                filmes.map(filme => (
-                    <div className="card-filme" key={filme.id}>
-                        <img src={`${urlImg}${filme.poster_path}`}/>
-                        <h1>{filme.title}</h1>
-                        <Link className="bg-blue-500" to={`${filme.id}`}>Saber Mais</Link>
-
-                    </div>
-                ))
-            }
-        </div>
+       
+        <h1 className='font-bold text-roxinho text-xl p-3 pt-7 m-3 ms-8'>Filmes Populares</h1>
+        <div className="container mx-auto p-4">
+          <div className="listaFilmes grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
+            {filmes.map(filme => (
+              <Link to={`${filme.id}`} className="card-filme relative overflow-hidden rounded-lg shadow-lg group block w-full" key={filme.id}>
+                <img src={`${urlImg}${filme.poster_path}`} alt={filme.title} className="w-full transition-transform transform group-hover:scale-105" />
+                <div className="absolute inset-0 bg-clarinho bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300 flex items-center justify-center">
+                </div>
+                <h1 className="text-center font-bold text-lg group-hover:text-roxinho transition-colors duration-300 mt-5 mb-5">{filme.title}</h1>
+              </Link>
+            ))}
+          </div>
+        </div> 
         </>
-     );
-     
-}
+      );
+    }
 
 export default Filmes ;
