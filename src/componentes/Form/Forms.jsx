@@ -31,40 +31,41 @@ function sendEmail(e){
   })
 }
 
-
+<style>
+    
+</style>
 return(
-    <div className="container">
-        <h1 className="title">Contato</h1>
-
+    <div className="ms-9 mr-9 p-10 mt-9 resize-none rounded-xl bg-clarinho border-4 border-gray-200 ">
+    <h5 className="mb-4 text-2xl mt-0 font-bold tracking-tight text-roxinho dark:text-white">Mande uma mensagem</h5>
 
     <form className="form" onSubmit={sendEmail}>
-    <input  
-    className="input"
-    type="text"
-    placeholder="Digite seu nome"
-    onChange={(e) => setName(e.target.value)}
-    value={name}
-    />
-    
-    <input 
-    className="input"
-    type="text" 
-    placeholder="Digite seu email"
-    onChange={(e) => setEmail(e.target.value)}
-    value={email}
-    />
+        <input  
+            className="input"
+            type="text"
+            placeholder="Digite seu nome"
+            onChange={(e) => setName(e.target.value)}
+            value={name}
+        />
+        
+        <input 
+            className="input"
+            type="text" 
+            placeholder="Digite seu email"
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+        />
 
-    <textarea
-    className="textarea"
-    type="text" 
-    placeholder="Digite sua mensagem"
-    onChange={(e) => setMessage(e.target.value)}
-    value={message}
-    />
-    
-    <input type="submit" className="button" value="Enviar"/>
-        </form> 
-    </div>
+        <textarea
+            className="textarea"
+            type="text" 
+            placeholder="Digite sua mensagem"
+            onChange={(e) => setMessage(e.target.value)}
+            value={message}
+        />
+        
+        <input type="submit" className="button" value="Enviar"/>
+    </form>
+</div>
 
 )
 

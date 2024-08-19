@@ -4,8 +4,7 @@ import Forms from "../componentes/Form/Forms";
 function Contato() {
     return ( 
         <>
-         <Forms/>
-       
+         
         <div className="ms-9 mr-9 p-10 mt-9 resize-none rounded-xl bg-clarinho border border-gray-200  shadow dark:bg-gray-800 dark:border-gray-700">
         <h5 className="mb-4 text-2xl mt-0 font-bold tracking-tight text-roxinho dark:text-white">Contato</h5>
       
@@ -23,6 +22,7 @@ function Contato() {
         <img className="rounded-t-lg h-8 w-8" src='/Instagram.png' alt="Instagram" />
         </div>
 
+        <Forms/>
             </div>
         </>
      );
