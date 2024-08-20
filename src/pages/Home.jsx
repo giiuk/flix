@@ -47,7 +47,7 @@ function Home() {
                             </div>
                         ))
                         :
-                        <p className='text-xl col-span-3 mt-4 font-bold text-center text-roxinho'>Nenhum Artigo Encontrado 😔👎 </p>
+                        <p className='text-xl col-span-3 mt-4 font-bold mx-auto text-center text-roxinho'>Nenhum Artigo Encontrado 😔👎 </p>
                     }
                 </div>
             </div>

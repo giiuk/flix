@@ -56,9 +56,12 @@ function Filmes() {
                 <h1 className="text-center font-bold text-lg group-hover:text-roxinho transition-colors duration-300 mt-5 mb-5">{filme.title}</h1>
               </Link>
             ))
-          ) : (
-            <p className="text-white mb-5">Filme não encontrado 😓</p>
-          )}
+          ) 
+          : 
+          <div className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-4 flex items-center justify-center">
+            <p className='text-xl mt-4 font-bold text-center text-roxinho'>Nenhum Filme Encontrado 😔👎</p>
+          </div>
+          }
         </div>
       </div> 
     </>
